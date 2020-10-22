@@ -1,0 +1,41 @@
+function Ans=Cost(Model,Input)
+if(strcmp(Model.Name,'ackley'))
+    Ans=ackley(Input);
+elseif(strcmp(Model.Name,'dixonpr'))
+    Ans=dixonpr(Input);
+elseif(strcmp(Model.Name,'goldprsc'))
+    Ans=goldprsc(Input);
+elseif(strcmp(Model.Name,'griewank'))
+    Ans=griewank(Input);
+elseif(strcmp(Model.Name,'langer'))
+    Ans=langer(Input);
+elseif(strcmp(Model.Name,'levy'))
+    Ans=levy(Input);
+elseif(strcmp(Model.Name,'powell'))
+    Ans=powell(Input);
+elseif(strcmp(Model.Name,'powersum'))
+    Ans=powersum(Input);
+elseif(strcmp(Model.Name,'rastr'))
+    Ans=rastr(Input);
+elseif(strcmp(Model.Name,'rosen'))
+    Ans=rosen(Input);
+elseif(strcmp(Model.Name,'rothyp'))
+    Ans=rothyp(Input);
+elseif(strcmp(Model.Name,'schwef'))
+    Ans=schwef(Input);
+elseif(strcmp(Model.Name,'spherefmod'))
+    Ans=spherefmod(Input);
+elseif(strcmp(Model.Name,'stybtang'))
+    Ans=stybtang(Input);
+elseif(strcmp(Model.Name,'sumpow'))
+    Ans=sumpow(Input);
+elseif(strcmp(Model.Name,'sumsqu'))
+    Ans=sumsqu(Input);
+elseif(strcmp(Model.Name,'trid'))
+    Ans=trid(Input);
+elseif(strcmp(Model.Name,'zakharov'))
+    Ans=zakharov(Input);
+else 
+    Ans=Inf;
+end
+end

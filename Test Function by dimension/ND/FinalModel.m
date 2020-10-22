@@ -1,0 +1,76 @@
+function Ans=FinalModel(Index,Dimension)
+if(Index==1)
+    Ans.Name='ackley';
+    Ans.Min=-32.768;
+    Ans.Max=32.768;    
+elseif(Index==2)
+    Ans.Name='dixonpr';
+    Ans.Min=-10;
+    Ans.Max=10;
+elseif(Index==3)
+    Ans.Name='goldprsc';
+    Ans.Min=-2;
+    Ans.Max=2;
+elseif(Index==4)
+    Ans.Name='griewank';
+    Ans.Min=-600;
+    Ans.Max= 600;
+elseif(Index==5)
+    Ans.Name='langer';
+    Ans.Min=0;
+    Ans.Max=10;
+elseif(Index==6)
+    Ans.Name='levy';
+    Ans.Min=-10;
+    Ans.Max=10;
+elseif(Index==7)
+    Ans.Name='powell';
+    Ans.Min=-4;
+    Ans.Max=5;
+elseif(Index==8)
+    Ans.Name='powersum';
+    Ans.Min=0;
+    Ans.Max=Dimension;
+elseif(Index==9)
+    Ans.Name='rastr';
+    Ans.Min=-5.12;
+    Ans.Max=5.12;
+elseif(Index==10)
+    Ans.Name='rosen';
+    Ans.Min=-2.048;
+    Ans.Max=2.048;
+elseif(Index==11)
+    Ans.Name='rothyp';
+    Ans.Min=-65.536;
+    Ans.Max=65.536;
+elseif(Index==12)
+    Ans.Name='schwef';
+    Ans.Min=-500;
+    Ans.Max=500;
+elseif(Index==13)
+    Ans.Name='spherefmod';
+    Ans.Min=-5.12;
+    Ans.Max=5.12;
+elseif(Index==14)
+    Ans.Name='stybtang';
+    Ans.Min=-5;
+    Ans.Max=5;
+elseif(Index==15)
+    Ans.Name='sumpow';
+    Ans.Min=-1;
+    Ans.Max=1;
+elseif(Index==16)
+    Ans.Name='sumsqu';
+    Ans.Min=-10;
+    Ans.Max=10;
+elseif(Index==17)
+    Ans.Name='trid';
+    Ans.Min=-Dimension^2;
+    Ans.Max=Dimension^2;
+elseif(Index==18)
+    Ans.Name='zakharov';
+    Ans.Min=-5;
+    Ans.Max=10;
+end
+Ans.Dimension=Dimension;
+end
